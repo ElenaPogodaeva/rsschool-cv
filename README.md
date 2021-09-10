@@ -1,1 +1,0 @@
-https://elenapogodaeva.github.io/rsschool-cv/cv
