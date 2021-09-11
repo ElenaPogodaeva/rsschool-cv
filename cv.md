@@ -24,9 +24,10 @@ I am interested in frontend development, because it provides many opportunities 
 
 ## Education
 
-Ivanovo State University, department of Mathematics, Bachelor’s  degree in Mathematics (2004 - 2008)
+Ivanovo State University, department of Mathematics
 
-Ivanovo State University, department of Mathematics, Master’s  degree in Mathematics (2008 - 2010)
+* Bachelor’s  degree in Mathematics (2004 - 2008)
+* Master’s  degree in Mathematics (2008 - 2010)
 
 ## Online courses
 
@@ -34,6 +35,16 @@ Ivanovo State University, department of Mathematics, Master’s  degree in Mathe
 * CodeBasics
 * Stepik
 
+## Code examples
+
+```
+function maskify(cc) {
+  if (cc.length <= 4) {
+      return cc;
+  }
+  return '#'.repeat(cc.length - 4) + cc.slice(-4);
+}
+```
 
 ## Language skills
 
