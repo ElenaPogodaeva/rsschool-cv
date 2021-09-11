@@ -14,3 +14,27 @@ I started to learn programming lessons on various free online courses and it exc
 It is not easy for me to learn programming, but I hope that after training I will be a bit better.
 
 I am interested in frontend development, because it provides many opportunities for professional growth. I am willing to get new knowledge and skills in web programming. I want to become a proficient frontend developer and obtain a stable job.
+
+## Skills
+
+* HTML
+* CSS
+* JavaScript (Basics)
+* Git
+
+## Education
+
+Ivanovo State University, department of Mathematics, Bachelor’s  degree in Mathematics (2004 - 2008)
+
+Ivanovo State University, department of Mathematics, Master’s  degree in Mathematics (2008 - 2010)
+
+## Online courses
+
+* HTMLAcademy
+* CodeBasics
+* Stepik
+
+
+## Language skills
+
+English - Pre-Intermediate
