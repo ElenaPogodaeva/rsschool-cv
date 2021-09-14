@@ -87,12 +87,13 @@ h2 {
 	font-weight: 500;
 	margin: 0px 0px 20px 0px;
 	color: #003D74;
+	letter-spacing: 0.03em;
 }
 
 h3 {
 	font-size: 20px;
 	line-height: 1;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 0.03em;
 	margin: 0px 0px 15px 0px;
 	text-transform: uppercase;
@@ -215,4 +216,28 @@ img {
 .company-name {
 	padding-left: 15px;
 	flex: 1 1 auto;
+}
+
+.footer {
+	background-color:#D5CDFE;
+	padding: 15px 0px;
+	align-items: center;
+}
+
+.footer__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__github {
+
+	background: url(img/github.svg) left no-repeat;
+	background-size: contain;
+	padding-left: 30px;
+}
+.footer__rsschool {
+	background: url(img/rs_school_js.svg) center no-repeat;
+	background-size: contain;
+	width: 100px;
+	height: 60px;
 }
