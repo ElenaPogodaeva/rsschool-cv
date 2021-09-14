@@ -89,6 +89,26 @@ h2 {
 	color: #003D74;
 }
 
+h3 {
+	font-size: 20px;
+	line-height: 1;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	margin: 0px 0px 15px 0px;
+	text-transform: uppercase;
+	color: #003D74;
+}
+
+a {
+	color: #003D74;
+}
+section {
+	padding: 15px 0;
+}
+ul {
+	padding-left: 15px;
+}
+
 img {
 	max-width: 100%;
 }
@@ -117,4 +137,54 @@ img {
 .header__content {
 	flex: 1 1 auto;
 	padding-left: 30px;
+}
+
+.main {
+	padding: 30px 0px;
+	flex: 1 1 auto;
+}
+.main-row {
+	display: flex;
+}
+
+.sidebar {
+	flex:0 0 30%; 
+	padding: 0px 10px;
+	border-right: 1px solid #d0d2d6;
+}
+
+.contact__list {
+	list-style: none;
+	padding:0;
+}
+
+.contact__list-item {
+	margin: 0px 0px 15px 0px;
+	font-size: 18px;
+	/*line-height: 24px;*/
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.contact__list li:last-child {
+	margin:0;
+}
+.contact__image {
+	background-size:contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+}
+.contact__image_1 {
+	background-image: url(img/location.svg);
+}
+.contact__image_2 {
+	background-image: url(img/phone.svg);
+}
+.contact__image_3 {
+	background-image: url(img/email.svg);
+}
+.contact__image_4 {
+	background-image: url(img/github.svg);
 }
