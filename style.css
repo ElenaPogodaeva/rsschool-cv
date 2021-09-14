@@ -1,0 +1,120 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: top;
+} 
+
+/*--------------------*/
+
+html,
+body {
+	height: 100%;
+	font-family: 'Inter', sans-serif;
+	color:#000;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.container{
+	max-width: 1180px;
+	margin: 0px auto;
+	padding: 0 15px;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 41px;
+	color: #003D74;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 1;
+	font-weight: 500;
+	margin: 0px 0px 20px 0px;
+	color: #003D74;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Styles for header*/
+.header {
+	padding: 15px 0px;
+	background-color: #D5CDFE;
+}
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__title {
+	margin-bottom: 15px;
+}
+.header__img {
+	flex:0 0 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+.header__content {
+	flex: 1 1 auto;
+	padding-left: 30px;
+}
