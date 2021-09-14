@@ -201,3 +201,18 @@ img {
 	margin-bottom: 0;
 }
 
+.section-row {
+	display: flex;
+	
+	margin-bottom: 20px;
+}
+.section-row:last-child {
+	margin-bottom: 0px;
+}
+.year {
+	flex:0 0 100px;
+}
+.company-name {
+	padding-left: 15px;
+	flex: 1 1 auto;
+}
