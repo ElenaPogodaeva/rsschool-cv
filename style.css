@@ -1,0 +1,251 @@
+:root {
+    --bg-violet: #D5CDFE;
+    --font-blue: #003D74;
+  }
+
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+} 
+
+/*--------------------*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    color:#000;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 41px;
+    color: var(--font-blue);
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 500;
+    color: var(--font-blue);
+    letter-spacing: 0.03em;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin: 0px 0px 15px 0px;
+    text-transform: uppercase;
+    color: var(--font-blue);
+}
+
+a {
+    color: var(--font-blue);
+}
+section {
+    padding: 15px 0;
+}
+ul {
+    padding-left: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+    padding: 30px 0px;
+    flex: 1 1 auto;
+}
+.main-row {
+    display: flex;
+}
+
+/* Styles for header*/
+.header {
+    padding: 15px 0px;
+    background-color: var(--bg-violet);
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__title {
+    margin-bottom: 15px;
+}
+.header__img {
+    flex:0 0 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.header__content {
+    flex: 1 1 auto;
+    padding-left: 30px;
+}
+
+/* Styles for sidebar */
+.sidebar {
+    flex:0 0 30%; 
+    padding: 0px 10px;
+    border-right: 1px solid #d0d2d6;
+}
+
+.contact__list {
+    list-style: none;
+    padding:0;
+}
+
+.contact__list-item {
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    /*line-height: 24px;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact__list li:last-child {
+    margin:0;
+}
+.contact__image {
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.contact__image_1 {
+    background-image: url(img/location.svg);
+}
+.contact__image_2 {
+    background-image: url(img/phone.svg);
+}
+.contact__image_3 {
+    background-image: url(img/email.svg);
+}
+.contact__image_4 {
+    background-image: url(img/github.svg);
+}
+
+/* Styles for content */
+
+.content {
+    flex: 1 1 auto;
+    padding: 0px 15px;
+}
+
+.about-me p {
+    margin-bottom: 20px;
+}
+.about-me p:last-child {
+    margin-bottom: 0;
+}
+
+.section-row {
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+.section-row:last-child {
+    margin-bottom: 0px;
+}
+.year {
+    flex:0 0 100px;
+}
+.company-name {
+    padding-left: 15px;
+    flex: 1 1 auto;
+}
+
+/* Styles for footer */
+
+.footer {
+    background-color:var(--bg-violet);
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__github {
+    background: url(img/github.svg) left no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+.footer__rsschool {
+    background: url(img/rs_school_js.svg) center no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 60px;
+}
