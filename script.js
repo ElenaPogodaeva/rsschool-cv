@@ -8,4 +8,12 @@ if (iconMenu) {
 	}
 	);
 
+	menuBody.addEventListener("click", function(e) {
+		if (e.target.classList.contains('menu__link')) {
+		document.body.classList.remove('_lock');
+		iconMenu.classList.remove('_active');
+		menuBody.classList.remove('_active');
+		}
+	}
+	);
 }
