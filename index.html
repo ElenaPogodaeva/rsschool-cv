@@ -9,26 +9,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="header__container container">
-                <div class="header__img">
-                    <img src = "img/photo.jpg" alt = "photo">
+                <div class="header__menu menu">
+                    <div class="menu__icon icon-menu">
+						<span>
+						</span>
+					</div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li>
+                                <a class="menu__link" href="#about-me">About me</a>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="#education">Education</a>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="#skills">Skills</a>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="#work-examples">Work examples</a>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="header__content">
-                    <h1 class = "header__title">Pogodaeva Elena</h1>
-                    <h2 class = "header__subtitle">Junior Frontend developer</h2>
-                </div>
+               
             </div>
         </header>
         <main class="main">
+            <section class="hello">
+                <div class="hello__container container">
+                    <div class="hello__img">
+                        <img src = "img/photo.jpg" alt = "photo">
+                    </div>
+                    <div class="hello__content">
+                        <h1 class = "hello__title">Pogodaeva Elena</h1>
+                        <h2 class = "hello__subtitle">Junior Frontend developer</h2>
+                    </div>
+                </div>
+            </section>
             <div class="container">
                 <div class="main-row">
                     <aside class="sidebar">
-                        <section class="contact">
+                        <section class="contact" id="contact">
                             <h3>Contact</h3>
                             <ul class = "contact__list">
                                 <li class = "contact__list-item">
@@ -49,7 +81,7 @@
                                 </li>
                             </ul>
                         </section>
-                        <section class="skills">
+                        <section class="skills" id="skills">
                             <h3>Skills</h3>
                             <ul>
                                 <li>Html</li>
@@ -64,13 +96,13 @@
                         </section>
                     </aside>
                     <div class="content">
-                        <section class="about-me">
+                        <section class="about-me" id="about-me">
                             <h3>About me</h3>
                             <p>I started to learn programming lessons on various free online courses and it excited me, it is really interesting and fun activity to do. I like the process of creating something that works and can be useful to people.</p>
                             <p>It is not easy for me to learn programming, but I hope that after training I will be a bit better.</p>
                             <p>I am interested in frontend development, because it provides many opportunities for professional growth. I am willing to get new knowledge and skills in web programming. I want to become a proficient frontend developer and obtain a stable job.</p>
                         </section>
-                        <section class="education">
+                        <section class="education" id="education">
                             <h3 class="section-title">Education</h3>
                             <div class="section-row">
                                 <p class = "year">2004 - 2008</p>
@@ -100,17 +132,42 @@
 </code>
 </pre>
                         </section>
+                        <section class="works" id="work-examples">
+                            <h3 class="section-title">Work examples</h3>
+                            <div class="works__items">
+                                <div class="works__item">
+                                    <div class="works__content">
+                                        <a href="https://elenapogodaeva.github.io/Scandi/" class="works__title" target="_blank">Scandi</a>
+                                        <p class="works__info">Html, Css</p>
+                                    </div>
+                                    <a href="https://elenapogodaeva.github.io/Scandi/" class="works__img" target="_blank">
+                                        <img src="img/work1.png" alt="Scandi">
+                                    </a>
+                                </div>
+                                <div class="works__item">
+                                    <div class="works__content">
+                                        <a href="https://elenapogodaeva.github.io/wildlife/" class="works__title" target="_blank">Wildlife</a>
+                                        <p class="works__info">Html, Css</p>
+                                    </div>
+                                    <a href="https://elenapogodaeva.github.io/wildlife/" class="works__img" target="_blank">
+                                        <img src="img/work2.png" alt="Wildlife">
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
         </main>
         <footer class="footer">
             <div class="footer__container container">
-                <a class = "footer__github" href = "https://github.com/ElenaPogodaeva">My GitHub</a>
+                <a class = "footer__github" href = "https://github.com/ElenaPogodaeva">My Github</a>
+               
                 <a class = "footer__rsschool" href = "https://rs.school/js/"></a>
                 <p class="footer__copy">2021</p>
             </div>
         </footer>
     </div>
+    <script src = "script.js"></script>
 </body>
 </html>
