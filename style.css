@@ -463,7 +463,12 @@ img {
     }
     .sidebar {
         border: none;
+        padding:0;
     }
+    .content {
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 620px) {
