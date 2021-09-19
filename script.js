@@ -1,19 +1,22 @@
-const iconMenu = document.querySelector('.menu__icon');
-if (iconMenu) {
-	const menuBody = document.querySelector('.menu__body');
-	iconMenu.addEventListener("click", function(e) {
-		document.body.classList.toggle('_lock');
-		iconMenu.classList.toggle('_active');
-		menuBody.classList.toggle('_active');
-	}
-	);
+console.log(`
+Самооценка
 
-	menuBody.addEventListener("click", function(e) {
-		if (e.target.classList.contains('menu__link')) {
-		document.body.classList.remove('_lock');
-		iconMenu.classList.remove('_active');
-		menuBody.classList.remove('_active');
-		}
-	}
-	);
-}
+- вёрстка валидная +10
+- вёрстка семантическая +20
+В коде страницы присутствуют семантические теги
+(header, nav, main, aside, section, code, footer, h1, h2, h3)
+- для оформления СV используются css-стили +10
+- контент размещается в блоке, который горизонтально центрируется на странице +10
+- вёрстка адаптивная +10
+- есть адаптивное бургер-меню, плавная прокрутка по якорям +10
+- на странице СV присутствует изображение +10
+- контакты для связи и перечень навыков оформлены в виде списка +10
+- CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского +10
+- CV содержит пример кода с подсветкой кода +10
+- CV содержит изображения-ссылки на выполненные проекты +10
+- CV выполнено на английском языке +10
+- выполнены требования к Pull Request, выполнена самооценка +10
+- дизайн, оформление, качество выполнения CV не ниже чем в примерах CV +10
+
+Итого: 150
+`);
