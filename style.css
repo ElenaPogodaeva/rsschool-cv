@@ -93,7 +93,7 @@ body._lock {
 h1 {
     font-weight: 600;
     font-size: 40px;
-    line-height: 41px;
+    line-height: 45px;
     color: var(--font-blue);
 }
 
@@ -271,7 +271,7 @@ img {
 }
 
 .skills ul {
-    padding-left: 15px;
+    padding-left: 25px;
 }
 /* Styles for content */
 
@@ -296,14 +296,12 @@ img {
     margin-bottom: 0px;
 }
 .year {
-    flex:0 0 100px;
 }
 .company-name {
-    padding-left: 15px;
-    flex: 1 1 auto;
+    padding-left: 15px; 
 }
 .qualifications ul {
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .works {
@@ -468,7 +466,6 @@ img {
     .content {
         padding: 0;
     }
-
 }
 
 @media (max-width: 620px) {
@@ -483,6 +480,12 @@ img {
     .hello__content {
         padding: 30px 0px 0px 0px;
         text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    code {
+        font-size: 14px;
     }
 }
 
