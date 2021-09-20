@@ -315,6 +315,9 @@ img {
 .works__item {
     flex: 0 1 50%;
     padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
 }
 .works__img {
     display: block;
@@ -336,13 +339,14 @@ img {
 }
 .works__content {
     margin-bottom: 10px;
+    flex: 1 1 auto;
 }
 .works__title {
     font-size: 20px;
     line-height: 1;
     font-weight: 500;
 }
-.works__info {
+.works__tech {
     color: #8695A4;
 }
 
@@ -490,6 +494,15 @@ img {
 }
 
 @media (max-width: 360px) {
+    .works__items {
+        display: block;
+    }
+    .works__item {
+        padding-bottom: 20px;
+    }
+    .main {
+        padding-bottom: 15px;
+    }
 	.footer__container {
         flex-direction: column;
         align-items: flex-start;
